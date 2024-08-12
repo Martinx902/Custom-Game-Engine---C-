@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<scene>
+	
+	<window name="Game" width="800" height ="700" fullscreen="false"> </window>
+
+	<entity name ="camera">
+		<component type="transform" pos_x = "0" pos_y = "3" pos_z = "50" rot_x = "0" rot_y = "0" rot_z = "0"  scl_x = "1" scl_y = "1" scl_z = "1"></component>
+		<component type="render" node="camera" fov="20" near="1" far="5000" ratio="1"></component>
+	</entity>
+	
+	<entity name ="light">
+		<component type="transform" pos_x = "10" pos_y = "10" pos_z = "10" rot_x = "0" rot_y = "0" rot_z = "0"  scl_x = "1" scl_y = "1" scl_z = "1"></component>
+		<component type="render" node="light"></component>
+	</entity>
+	
+	<entity name ="sphere">
+		<component type="transform" pos_x = "0" pos_y = "0" pos_z = "0" rot_x = "0" rot_y = "0" rot_z = "0"  scl_x = "5" scl_y = "5" scl_z = "5"></component>
+		<component type="render" node="modelObj" mesh_path="../../assets/objects/sphere.obj"></component>
+	</entity>
+
+	<entity name ="sphere2">
+		<component type="transform" parent = "sphere" pos_x = "0" pos_y = "4" pos_z = "0" rot_x = "0" rot_y = "0" rot_z = "0"  scl_x = "1" scl_y = "1" scl_z = "1"></component>
+		<component type="render" node="modelObj" mesh_path="../../assets/objects/sphere.obj"></component>
+	</entity>
+	
+	<entity name ="sphere3">
+		<component type="transform" parent = "sphere2" pos_x = "0" pos_y = "1" pos_z = "0" rot_x = "0" rot_y = "0" rot_z = "0"  scl_x = "0.3" scl_y = "0.3" scl_z = "0.3"></component>
+		<component type="render" node="modelObj" mesh_path="../../assets/objects/sphere.obj"></component>
+	</entity>
+
+	
+</scene>

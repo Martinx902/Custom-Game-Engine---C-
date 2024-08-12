@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headers\Components">
+      <UniqueIdentifier>{62529867-c97e-4afa-b9f2-6afa3ac0af6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Messages">
+      <UniqueIdentifier>{6dffb8d0-08d4-42a3-be54-f5a29078bd25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Tasks">
+      <UniqueIdentifier>{a0f868ec-abe2-4c20-8c8e-8ad8071f37f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\code\sources\Window.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\winmain.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\Kernel.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\Entity.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\Transform_Component.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\Scene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\Control_System.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\Render_System.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\Transform_System.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\Render_Component.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\Input_Task.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\sources\Message_Dispatcher.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\headers\macros.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Timer.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Window.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Kernel.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Scene.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Entity.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Message.hpp">
+      <Filter>Headers\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Message_Dispatcher.hpp">
+      <Filter>Headers\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Message_Listener.hpp">
+      <Filter>Headers\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Task.hpp">
+      <Filter>Headers\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\System.hpp">
+      <Filter>Headers\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Component.hpp">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Transform_Component.hpp">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Controller.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Control_Component.hpp">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Control_System.hpp">
+      <Filter>Headers\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Render_System.hpp">
+      <Filter>Headers\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Transform_System.hpp">
+      <Filter>Headers\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Render_Component.hpp">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\System_Factory.hpp">
+      <Filter>Headers\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\headers\Input_Task.hpp">
+      <Filter>Headers\Tasks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
